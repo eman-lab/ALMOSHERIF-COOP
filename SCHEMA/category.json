@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{categoryUrl}}",
+  "url": "{{categoryUrl}}",
+  "name": "{{categoryName}}",
+  "description": "{{categoryDescription}}",
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{totalProducts}},
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "{{product1Url}}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "{{product2Url}}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "{{product3Url}}"
+      }
+    ]
+  }
+}
+</script>
