@@ -1,0 +1,49 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "@id": "{{productUrl}}",
+  "name": "{{productName}}",
+  "description": "{{productDescription}}",
+  "image": [
+    "{{productImage}}"
+  ],
+  "sku": "{{sku}}",
+  "category": "{{categoryName}}",
+
+  "gtin13": "{{barcode}}",
+
+  "brand": {
+    "@type": "Brand",
+    "name": "{{brandName}}"
+  },
+
+  "weight": {
+    "@type": "QuantitativeValue",
+    "value": "{{weightValue}}",
+    "unitCode": "{{weightUnitCode}}"
+  },
+
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Weight",
+      "value": "{{weightValue}} {{weightUnit}}"
+    }
+  ],
+
+  "offers": {
+    "@type": "Offer",
+    "url": "{{productUrl}}",
+    "priceCurrency": "AED",
+    "price": "{{price}}",
+    "availability": "{{availability}}",
+    "itemCondition": "https://schema.org/NewCondition",
+
+    "seller": {
+      "@type": "Organization",
+      "name": "{{providerName}}"
+    }
+  }
+}
+</script>
