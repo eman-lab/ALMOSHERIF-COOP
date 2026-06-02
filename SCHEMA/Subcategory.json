@@ -2,28 +2,32 @@
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "@id": "{{subCategoryUrl}}",
+  "@id": "{{subCategoryUrl}}#collectionpage",
   "url": "{{subCategoryUrl}}",
   "name": "{{subCategoryName}}",
   "description": "{{subCategoryDescription}}",
   "isPartOf": {
     "@type": "CollectionPage",
+    "@id": "{{categoryUrl}}#collectionpage",
     "name": "{{categoryName}}",
     "url": "{{categoryUrl}}"
   },
   "mainEntity": {
     "@type": "ItemList",
-    "numberOfItems": {{totalProducts}},
+    "itemListOrder": "https://schema.org/ItemListOrderAscending",
+    "numberOfItems": {{displayedProductsCount}},
     "itemListElement": [
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "{{product1Url}}"
+        "url": "{{product1Url}}",
+        "name": "{{product1Name}}"
       },
       {
         "@type": "ListItem",
         "position": 2,
-        "url": "{{product2Url}}"
+        "url": "{{product2Url}}",
+        "name": "{{product2Name}}"
       }
     ]
   }
