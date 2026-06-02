@@ -1,0 +1,51 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://example.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "@id": "{{subCategoryUrl}}#breadcrumb",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://mushrifcoop.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{categoryName}}",
+      "item": "{{categoryUrl}}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{subCategoryName}}"
+    }
+  ]
+}
+</script>
+      "name": "{{categoryName}}",
+      "item": "{{categoryUrl}}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{subCategoryName}}",
+      "item": "{{subCategoryUrl}}"
+    }
+  ]
+}
+</script>
