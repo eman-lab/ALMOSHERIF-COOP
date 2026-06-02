@@ -1,0 +1,88 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mushrifcoop.com/#organization",
+      "name": "Al Mushrif Coop",
+      "alternateName": [
+        "Mushrif Coop",
+        "AMCOOP",
+        "المشرف التعاونية",
+        "جمعية المشرف التعاونية"
+      ],
+      "url": "https://mushrifcoop.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://mushrifcoop.com/#logo",
+        "url": "https://mushrifcoop.com/assets/images/header-logo.png",
+        "contentUrl": "https://mushrifcoop.com/assets/images/header-logo.png",
+        "caption": "Al Mushrif Coop"
+      },
+      "slogan": "Everything you need in one place!",
+      "description": "Al Mushrif Coop is a retail cooperative in Abu Dhabi offering groceries, fresh food, household essentials, health and beauty products, electronics, and online shopping services through the AMCOOP platform.",
+      "knowsAbout": [
+        "Online Grocery Shopping",
+        "Fresh Food Delivery",
+        "Supermarket Products",
+        "Fresh Fruits and Vegetables",
+        "Fresh Meat and Poultry",
+        "Frozen Food",
+        "Dairy Products",
+        "Bakery Products",
+        "Beverages",
+        "Health and Beauty Products",
+        "Household Essentials",
+        "Electronics",
+        "Online Shopping UAE",
+        "Retail Services"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Al Khaleej Al Arabi Street",
+        "addressLocality": "Abu Dhabi",
+        "addressCountry": "AE"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+971506490953",
+          "contactType": "customer service",
+          "email": "almushrefcoop@gmail.com",
+          "availableLanguage": [
+            "Arabic",
+            "English"
+          ]
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/mushrifcoop",
+        "https://www.instagram.com/al.mushrifcoop",
+        "https://www.tiktok.com/@al_mushrifcoop"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mushrifcoop.com/#website",
+      "url": "https://mushrifcoop.com/",
+      "name": "Al Mushrif Coop",
+      "publisher": {
+        "@id": "https://mushrifcoop.com/#organization"
+      },
+      "inLanguage": [
+        "ar",
+        "en"
+      ],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://mushrifcoop.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
+</script>
