@@ -21,7 +21,15 @@
         "caption": "Al Mushrif Coop"
       },
       "slogan": "Everything you need in one place!",
-      "description": "Al Mushrif Coop is a retail cooperative in Abu Dhabi offering groceries, fresh food, household essentials, health and beauty products, electronics, and online shopping services through the AMCOOP platform.",
+      "description": "Al Mushrif Coop is a leading retail cooperative in Abu Dhabi offering groceries, fresh food, household essentials, electronics, health and beauty products, and online shopping through the AMCOOP app and website.",
+      "inLanguage": [
+        "ar-AE",
+        "en-AE"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "United Arab Emirates"
+      },
       "knowsAbout": [
         "Online Grocery Shopping",
         "Fresh Food Delivery",
@@ -71,8 +79,8 @@
         "@id": "https://mushrifcoop.com/#organization"
       },
       "inLanguage": [
-        "ar",
-        "en"
+        "ar-AE",
+        "en-AE"
       ],
       "potentialAction": {
         "@type": "SearchAction",
@@ -81,6 +89,38 @@
           "urlTemplate": "https://mushrifcoop.com/search?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://mushrifcoop.com/#mobileapp-android",
+      "name": "AMCOOP",
+      "applicationCategory": "ShoppingApplication",
+      "operatingSystem": "Android",
+      "url": "https://play.google.com/store/apps/details?id=ua.suliit.com",
+      "publisher": {
+        "@id": "https://mushrifcoop.com/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "AED"
+      }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://mushrifcoop.com/#mobileapp-ios",
+      "name": "AMCOOP",
+      "applicationCategory": "ShoppingApplication",
+      "operatingSystem": "iOS",
+      "url": "https://apps.apple.com/us/app/amcoop-app/id6473451976",
+      "publisher": {
+        "@id": "https://mushrifcoop.com/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "AED"
       }
     }
   ]
