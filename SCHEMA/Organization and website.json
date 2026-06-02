@@ -90,38 +90,6 @@
         },
         "query-input": "required name=search_term_string"
       }
-    },
-    {
-      "@type": "MobileApplication",
-      "@id": "https://mushrifcoop.com/#mobileapp-android",
-      "name": "AMCOOP",
-      "applicationCategory": "ShoppingApplication",
-      "operatingSystem": "Android",
-      "url": "https://play.google.com/store/apps/details?id=ua.suliit.com",
-      "publisher": {
-        "@id": "https://mushrifcoop.com/#organization"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "AED"
-      }
-    },
-    {
-      "@type": "MobileApplication",
-      "@id": "https://mushrifcoop.com/#mobileapp-ios",
-      "name": "AMCOOP",
-      "applicationCategory": "ShoppingApplication",
-      "operatingSystem": "iOS",
-      "url": "https://apps.apple.com/us/app/amcoop-app/id6473451976",
-      "publisher": {
-        "@id": "https://mushrifcoop.com/#organization"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "AED"
-      }
     }
   ]
 }
