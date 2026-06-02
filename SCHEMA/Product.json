@@ -2,7 +2,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "@id": "{{productUrl}}",
+  "@id": "{{productUrl}}#product",
+  "url": "{{productUrl}}",
   "name": "{{productName}}",
   "description": "{{productDescription}}",
   "image": [
@@ -23,14 +24,6 @@
     "value": "{{weightValue}}",
     "unitCode": "{{weightUnitCode}}"
   },
-
-  "additionalProperty": [
-    {
-      "@type": "PropertyValue",
-      "name": "Weight",
-      "value": "{{weightValue}} {{weightUnit}}"
-    }
-  ],
 
   "offers": {
     "@type": "Offer",
